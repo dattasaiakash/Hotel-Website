@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>JAIN HOTELS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style3.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ROOM BOOKINGS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE</button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="services.html" class="w3-bar-item w3-button">Our Services</a>
+        <a href="facilities.html" class="w3-bar-item w3-button">Our Facilities</a>
+        <a href="booking.html" class="w3-bar-item w3-button">Our Booking</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ROOM BOOKINGS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT US</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MORE</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">JAIN HOTELS</h2>
+    <p class="w3-opacity"><i>A warm welcome awaits.</i></p>
+    <p class="w3-justify">Jain Hotels was established in the year 2000. It was completed 20+ years and gained a good name and reputation through out the world. It is beautifully decorated and the external structure of the building is not less than a palace as it is spacious enough and can accommodate 250 people. It has a big park and parking facility is excellent as people do not have to park their vehicles on the road. Apart from it, it serves delicious food and takeaway facilities make it more prominent in other areas too. The cleanliness of it as one cannot see a single trace of dirt here. The service was up to the mark. We treat guests nicely with love and respect towards them. We will also provide 2 free vouchers for lunch. It is a great place to organize parties, weddings too. This is the hotel which all the people like and love to come here frequently.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>NEW YORK</p>
+        <img src="a.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p>PARIS</p>
+        <img src="b.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <p>SAN FRANCISCO</p>
+        <img src="d.jpg" class="w3-round" alt="Random Name" style="width:80%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">ROOM BOOKINGS</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your room!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">MAY <span class="w3-badge w3-red w3-margin-left">Sold out</span></li>
+        <li class="w3-padding">JUNE <span class="w3-tag w3-green w3-margin-left">Bookings Open - 23 Rooms</span></li>
+        <li class="w3-padding">JULY <span class="w3-tag w3-green w3-margin-left">Bookings Open - 50 Rooms</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>New York</b></p>
+            <p class="w3-opacity"></p>
+            <p>	 New York ,the City That Never Sleeps which is famous for Statue of Liberty,Empire State Building,Brooklyn Bridge,Central Park and historic neighborhoods,and numerous world famous museums.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book Rooms</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Paris</b></p>
+            <p class="w3-opacity"></p>
+            <p>Paris, the City of Light and Love is the world's most visited capital. The city is proud of its many monuments from the iconic Eiffel Tower to the lofty Notre-Dame cathedral and the majestic Arc de Triomphe.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book Rooms</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>San Francisco</b></p>
+            <p class="w3-opacity"></p>
+            <p>San Francisco, the City known for its cool summers,steep rolling hills,eclectic mix of architecture,and landmarks, including the Golden Gate Bridge,cable cars,and its Chinatown district.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Book Rooms</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide">Bookings</h2>
+      </header>
+      <div class="w3-container">
+        <p><label> Room Bookings , $15 per person per day</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter Email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY </button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close </button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT US</h2>
+    <p class="w3-opacity w3-center"><i>We'd Love to Hear From You.</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        Headquartered in BANGALORE, INDIA<br>
+        Phone:+91 9087XXXXXX<br>
+        Email: jainhotelbooking@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium">Powered by <a href="jainhotels_logo.png" target="_blank">Jain Hotels</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the model, close it
+var modal = document.getElementById('ticketModel');
+window.onclick = function(event) {
+  if (event.target == model) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
